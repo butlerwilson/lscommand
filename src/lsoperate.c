@@ -219,7 +219,7 @@ int list_span_print(struct file_info **fileinfo, int count)
 
 
 	for (i = 0; i < rows; i++) {
-		for (j = 0; j < columns; j++) {
+		for (j = 0; (j < columns) && (j * rows + i < count); j++) {
 			struct file_info *tmp = fileinfo[j * rows + i];
 			printf("%s%s%s", tmp->fi_color, tmp->fi_fname,
 					tmp->fi_endcolor);
