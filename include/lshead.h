@@ -10,7 +10,7 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  Youngcy (), youngcy.youngcy@gmail.com
+ *         Author:  Youngcy ()
  *   Organization:  Ocreator
  *
  * =========================================================================
